@@ -1,0 +1,141 @@
+/* === Fond === */
+.background-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(4px) brightness(0.6);
+  z-index: -1;
+}
+
+/* === En-tête === */
+.main-header {
+  padding: 3rem 1rem 1.5rem;
+  color: #e8f5e9;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.main-header h1 {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #c8e6c9;
+}
+
+.main-header .tagline {
+  font-size: 1.2rem;
+  color: #a5d6a7;
+}
+
+/* === Contenu principal === */
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  position: relative;
+  z-index: 1;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* === Sections === */
+.section,
+.team-section {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* === Titres === */
+h2 {
+  color: #2e7d32;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #a5d6a7;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* === Textes et listes === */
+p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+ul {
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+a {
+  color: #0b8043;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Bloc vidéo === */
+.video {
+  background: #f1f8e9;
+  padding: 1.5rem;
+  border-left: 4px solid #81c784;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+/* === Équipe === */
+.team-section {
+  text-align: center;
+  border-top: 3px solid #c8e6c9;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  background: #f9fbe7;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #1b5e20;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.team-member p {
+  font-weight: bold;
+  color: #1b5e20;
+  margin: 0.5rem 0 0.8rem;
+}
+
+.team-member a {
+  font-size: 0.95rem;
+  color: #388e3c;
+}
+
+/* === Pied de page === */
+footer {
+  color: #c8e6c9;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+}
